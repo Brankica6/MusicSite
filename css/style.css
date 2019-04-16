@@ -1,0 +1,224 @@
+body {
+  background-image: url('images.jpg');
+  background-size: cover;
+  display: -ms-flexbox;
+  display: flex;
+
+}
+
+.bg-dark {
+    background-color: #181c21 !important;
+}
+
+.main {
+  width: auto;
+}
+
+.navbar {
+  padding: 0.5rem 0.5rem;
+}
+
+.nav-item {
+  padding: 0.2rem 2rem;
+}
+
+.nav-link {
+     font-size: 20px;
+ }
+
+.header {
+  height: 500px;
+  margin-top: 10rem;
+}
+
+.center {
+  align-self: center;
+}
+
+#img-rat {
+  margin-top: 3rem;
+}
+
+#img-line {
+  width: 100px;
+  height: 20px;
+  object-fit: contain;
+  align-self: center;
+  margin-bottom: 2rem;
+}
+
+
+.small {
+  font-size:12px;
+  margin:0;
+  padding: 0;
+  line-height: 10px;
+}
+
+hr {
+    display: block;
+    margin: 0;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.su {
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+}
+
+.sub {
+  padding-top:5rem;
+}
+
+p {
+  font-size: 18px;
+}
+
+.email {
+  background-color: black;
+}
+
+.email :active {
+  background-color: black;
+}
+
+.btn-block {
+  margin-top: 0.5rem;
+}
+
+a {
+  color: white;
+  align-self: center;
+}
+
+a:hover {
+  color: inherit;
+  cursor: pointer;
+}
+
+.icon {
+    margin: 0.4rem;
+}
+
+.dole {
+  padding-top: 5rem;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1280px) {
+    .btn-block {
+      margin-left: 6rem;
+      width: 400px;
+    }
+}
+
+@media only screen and (max-width: 568px) {
+    .display-2 {
+      font-size: 3rem;
+    }
+    div .album > h3 {
+      font-size: 1rem;
+    }
+    .header {
+      height: 400px;
+    }
+}
+
+/* tour.html */
+.tabela {
+  margin-top: 10rem;
+}
+.size {
+  width: 120px;
+}
+.num {
+  font-size: 28px;
+  font-weight: 400px;
+}
+
+.table td {
+  padding: 1.5rem;
+}
+
+.table thead th {
+  padding: 0.75rem;
+}
+
+.lead {
+  text-align: center;
+  font-size: 1.5rem;
+}
+/*contact*/
+.d-flex {
+  width: 100%;
+}
+
+.con-pad {
+  padding-top: 8rem;
+}
+
+/*about*/
+.about {
+  padding-top: 10rem;
+}
+
+.par {
+  padding-top: 2rem;
+}
+
+
+/*animate page*/
+
+.fade-in {
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
+}
+
+
+@keyframes fadeIn{
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
